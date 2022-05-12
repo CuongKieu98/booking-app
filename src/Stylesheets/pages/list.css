@@ -16,7 +16,17 @@
     border-radius: 10px;
     position: sticky;
     top: 10px;
+    height: max-content;
     
+}
+.list-search>button{
+    padding: 10px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
 }
 .ls-title{
     font-size: 20px;
@@ -46,4 +56,17 @@
     background-color: white;
     display: flex;
     align-items: center;
+}
+.ls-option-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 12px;
+}
+.ls-option-text{
+
+}
+.ls-options-input{
+    width: 50px;
 }
